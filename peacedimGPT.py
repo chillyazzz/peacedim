@@ -5,8 +5,8 @@ import openai
 
 logging.basicConfig(level=logging.INFO)
 
-chat_api = "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"
-bot = Bot(token="5845173175:AAEhRCADaOj2SMaaWnnHSJcvyJHUCrLfcjo")
+chat_api = "YOUR OPENAI TOKEN"
+bot = Bot(token="YOUR TELEGRAM TOKEN")
 dp = Dispatcher(bot)
 
 async def on_startup(dp):
