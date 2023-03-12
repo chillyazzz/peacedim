@@ -5,8 +5,8 @@ import openai
 
 logging.basicConfig(level=logging.INFO)
 
-chat_api = "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"
-bot = Bot(token="5845173175:AAEhRCADaOj2SMaaWnnHSJcvyJHUCrLfcjo")
+chat_api = "insert openai token here"
+bot = Bot(token="insert telegram token here")
 dp = Dispatcher(bot)
 
 async def on_startup(dp):
