@@ -1,0 +1,21 @@
+# clone the project 
+git clone https://github.com/chillyazzz/peacedim
+
+# change directory to the project directory
+cd peacedim
+
+#install python
+sudo apt install python3-pip
+
+# install the requirements 
+pip install -r requirements.txt
+
+# create a new file .env with your tokens inside 
+
+# I also used linux screen to run my code 
+sudo apt install screen
+screen -S your_screen_name
+
+# then inside the screen run your code
+python3 peacedimGPT.py
+# use ctrl+a+d to detach from linux screen
