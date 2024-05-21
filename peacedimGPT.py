@@ -5,7 +5,7 @@ import openai
 
 logging.basicConfig(level=logging.INFO)
 
-chat_api = "insert openai token here"
+chat_api = "insert your openai token here"
 bot = Bot(token="insert telegram token here")
 dp = Dispatcher(bot)
 
